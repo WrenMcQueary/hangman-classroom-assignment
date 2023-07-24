@@ -33,7 +33,7 @@ def choose_word(word_list):
 
     Returns a word from word_list at random
     """
-    pass    # TODO: Implement
+    pass    # TODO
 
 
 def is_word_guessed(secret_word, letters_guessed):
