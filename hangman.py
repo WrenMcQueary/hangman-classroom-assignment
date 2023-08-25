@@ -92,7 +92,7 @@ def hangman(secret_word):
         print("-------------")
         # TODO: Check if the player has won (the word has been completed).  If so, congratulate the player for winning and end the game
         # TODO: Check if the player has lost (is out of guesses).  If so, tell the player they've lost, tell them what the secret word was, and end the game.
-        # TODO: Tell the player how many guesses are left, and which letters they haven't chosen yet.  Then have them guess a new letter.  Reject repeat letters but don't dock them a guess.  Then show them the portion of the word they've guessed so far.
+        # TODO: Tell the player how many guesses are left, and which letters they haven't chosen yet.  Then have them guess a new letter.  Reject repeat letters but don't dock them a guess.  If the letter was new, tell them whether they guessed correctly.  If they guessed incorrectly, dock them a point.  Then show them the portion of the word they've guessed so far.
 
 
 WORDLIST_FILENAME = "words.txt"
